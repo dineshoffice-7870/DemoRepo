@@ -11,6 +11,8 @@ eg: git config --global user.email dineshoffice.7870@gmail.com
 to list
 git config --global user.name
 git config --global user.email
+git config --global --list
+
 
 dineshkumar@KTP7R9237F demoRepo % git config --global user.username
 dineshkumar@KTP7R9237F demoRepo % git config --global user.name    
@@ -18,3 +20,10 @@ dineshoffice-7870
 dineshkumar@KTP7R9237F demoRepo % git config --global user.email
 dineshoffice.7870@gmail.com
 dineshkumar@KTP7R9237F demoRepo % 
+
+
+dineshkumar@KTP7R9237F demoRepo % git config --global --list
+credential.helper=osxkeychain
+user.email=dineshoffice.7870@gmail.com
+user.name=dineshoffice-7870
+dineshkumar@KTP7R9237F demoRepo %
