@@ -1,0 +1,20 @@
+git config --global user.name <username>
+
+eg: git config --global user.username dineshofficexxx
+
+
+git config --global user.email <email>
+
+eg: git config --global user.email dineshoffice.7870@gmail.com
+
+
+to list
+git config --global user.name
+git config --global user.email
+
+dineshkumar@KTP7R9237F demoRepo % git config --global user.username
+dineshkumar@KTP7R9237F demoRepo % git config --global user.name    
+dineshoffice-7870
+dineshkumar@KTP7R9237F demoRepo % git config --global user.email
+dineshoffice.7870@gmail.com
+dineshkumar@KTP7R9237F demoRepo % 
